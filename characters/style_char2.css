@@ -1,0 +1,498 @@
+body {
+    /*background-image: url(background.jpg);*/
+    background-color: black;
+    background-attachment: fixed;
+    font-family: 'Georgia', serif;
+}
+
+#main {
+    color: #444444;
+    height: auto;
+    margin: 3% 25% 3% 25%;
+    position: relative;
+    background-color:#000000;  
+    padding: 20px;
+    width:auto;
+    border: 5px solid white;
+}
+
+#main2 {
+    color: #DDDDDD;
+    float: right;
+    height: auto;
+    margin: 1.5% 2% 3% 10%;
+    position: relative;
+    background-color: #000000;
+    padding: 20px;
+    width: 250px;
+    border: 5px solid white;
+    line-height: 18px;
+}
+
+#yeah {
+
+    line-height: 32px;
+
+}
+
+#header {
+    /*position: relative;
+    left: 5%;
+    height: 200px;
+    width: 90%;
+    display:inline-block;
+    background: black url(./images/header.png) center no-repeat;
+    border: 5px solid black; */
+}
+
+#music {
+    margin: 1.4em;
+    width: 42%;
+    border: 3px solid white;
+    background-color: black;
+    font-family: Orbitron;
+    font-size: 8px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+    border: 0px solid;
+    font-family: Orbitron;
+    font-size: 8px;
+}
+
+button:hover {
+    background-color: #222222;
+}
+    
+p { 
+    font-size: 1.6em;
+    color: #DDDDDD;
+    margin: 1em;
+    overflow: hidden;
+}
+a:link {
+    text-decoration:none;
+    color:cornflowerblue;
+}
+#yeah a:hover {
+    color: #74A5FD;
+}
+a:visited {
+    color: cornflowerblue;
+}
+
+p.illust  {
+text-align: center;
+
+}
+p.illust img {
+    border: white double 5px;
+}
+
+p.h1 {
+    font-family:Calibri;
+    font-weight: lighter;
+    font-size:3em;
+    color:#FFFFFF;
+    margin: 0px;
+}
+
+p.h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #DDDDDD;
+    text-align:center;
+    margin: 0em;} 
+p.h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:300;
+    font-size: 1.75em;
+    margin: .5em;
+    color: #DDDDDD;
+    text-align:center;
+} 
+p.h4 {
+    font-family: 'Georgia', serif;
+    font-style: italic ;
+    text-align: center;
+    font-size: 1.10em;
+    margin: 0em;
+}
+
+.storyblock {
+    color: #DDDDDD;
+    position: relative;
+    display:table;
+    /* padding: 0em 1em 1em 1em; */
+    text-align:justify;
+}
+
+p.storyblock-text {
+    vertical-align: middle;
+}
+
+p.toc {
+    text-align: center;
+}
+
+#gallery img {
+    height: 200px;
+    /* width: 200px; */
+}
+
+/* #thumb {
+    margin: 1em;
+    position:absolute; 
+} */
+#thumb img {
+    position: relative;
+    float: left;
+    margin: 0.5em 1em 1em 1em;
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid #ffffff;
+    
+}
+
+#castthumb img {
+    position: relative;
+    float: left;
+    margin: 0.5em 1em 1em 1em;
+    width: 150px;
+    height:150px;
+    border: none;
+    
+}
+
+.neonText {
+    /*color: #04f;
+    text-shadow: 0 0 2px #04f, 0 0 8px #04f, 0 0 22px #00f*/
+}
+
+.loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #FFF;
+    pointer-events: none;
+}
+
+    .loading p {
+        position: relative;
+        width: calc(100% / 30);
+        background: #FFF;
+        font-size: calc(100vw / 30);
+        overflow: hidden;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        white-space: nowrap;
+        line-height: calc(100vw / 30);
+        color: rgba(0,0,0,1)    ;
+        height: 0;
+        transition: none;
+    }
+
+@media screen and (max-width:768px) {
+    .loading {
+        flex: 1;
+    }
+
+        .loading p {
+            width: calc(100% / 10 + 1px);
+            font-size: calc(100vw / 10);
+            line-height: calc(100vw / 10);
+            transition: all 0.5s ease-in-out;
+            margin-left: -1px;
+            min-width: calc(100vw / 10 + 1px);
+        }
+}
+
+.loading.a1 p {
+    height: 120%;
+}
+
+.loading .p1 {
+    transition-delay: 0.03s;
+}
+
+.loading .p2 {
+    transition-delay: 0.06s;
+}
+
+.loading .p3 {
+    transition-delay: 0.09s;
+}
+
+.loading .p4 {
+    transition-delay: 0.12s;
+}
+
+.loading .p5 {
+    transition-delay: 0.15s;
+}
+
+.loading .p6 {
+    transition-delay: 0.18s;
+}
+
+.loading .p7 {
+    transition-delay: 0.21s;
+}
+
+.loading .p8 {
+    transition-delay: 0.24s;
+}
+
+.loading .p9 {
+    transition-delay: 0.27s;
+}
+
+.loading .p10 {
+    transition-delay: 0.30s;
+}
+
+.loading .p11 {
+    transition-delay: 0.33s;
+}
+
+.loading .p12 {
+    transition-delay: 0.36s;
+}
+
+.loading .p13 {
+    transition-delay: 0.39s;
+}
+
+.loading .p14 {
+    transition-delay: 0.42s;
+}
+
+.loading .p15 {
+    transition-delay: 0.45s;
+}
+
+.loading .p16 {
+    transition-delay: 0.48s;
+}
+
+.loading .p17 {
+    transition-delay: 0.51s;
+}
+
+.loading .p18 {
+    transition-delay: 0.54s;
+}
+
+.loading .p19 {
+    transition-delay: 0.57s;
+}
+
+.loading .p20 {
+    transition-delay: 0.60s;
+}
+
+.loading .p21 {
+    transition-delay: 0.63s;
+}
+
+.loading .p22 {
+    transition-delay: 0.66s;
+}
+
+.loading .p23 {
+    transition-delay: 0.69s;
+}
+
+.loading .p24 {
+    transition-delay: 0.72s;
+}
+
+.loading .p25 {
+    transition-delay: 0.75s;
+}
+
+.loading .p26 {
+    transition-delay: 0.78s;
+}
+
+.loading .p27 {
+    transition-delay: 0.81s;
+}
+
+.loading .p28 {
+    transition-delay: 0.84s;
+}
+
+.loading .p29 {
+    transition-delay: 0.87s;
+}
+
+
+.loading.a2 {
+    /*background: transparent;*/
+}
+
+    .loading.a2 p {
+        height: 0;
+    }
+
+    .loading.a2 .loading__logo {
+        opacity: 1;
+    }
+
+.loading.a3 p {
+    height: 120%;
+    transition: none;
+}
+
+.loading.a3 .p1 {
+    transition-delay: 0.01s;
+}
+
+.loading.a3 .p2 {
+    transition-delay: 0.02s;
+}
+
+.loading.a3 .p3 {
+    transition-delay: 0.03s;
+}
+
+.loading.a3 .p4 {
+    transition-delay: 0.04s;
+}
+
+.loading.a3 .p5 {
+    transition-delay: 0.05s;
+}
+
+.loading.a3 .p6 {
+    transition-delay: 0.06s;
+}
+
+.loading.a3 .p7 {
+    transition-delay: 0.07s;
+}
+
+.loading.a3 .p8 {
+    transition-delay: 0.08s;
+}
+
+.loading.a3 .p9 {
+    transition-delay: 0.09s;
+}
+
+.loading.a3 .p10 {
+    transition-delay: 0.1s;
+}
+
+.loading.a3 .p11 {
+    transition-delay: 0.11s;
+}
+
+.loading.a3 .p12 {
+    transition-delay: 0.12s;
+}
+
+.loading.a3 .p13 {
+    transition-delay: 0.13s;
+}
+
+.loading.a3 .p14 {
+    transition-delay: 0.14s;
+}
+
+.loading.a3 .p15 {
+    transition-delay: 0.15s;
+}
+
+.loading.a3 .p16 {
+    transition-delay: 0.16s;
+}
+
+.loading.a3 .p17 {
+    transition-delay: 0.17s;
+}
+
+.loading.a3 .p18 {
+    transition-delay: 0.18s;
+}
+
+.loading.a3 .p19 {
+    transition-delay: 0.19s;
+}
+
+.loading.a3 .p20 {
+    transition-delay: 0.20s;
+}
+
+.loading.a3 .p21 {
+    transition-delay: 0.21s;
+}
+
+.loading.a3 .p22 {
+    transition-delay: 0.22s;
+}
+
+.loading.a3 .p23 {
+    transition-delay: 0.23s;
+}
+
+.loading.a3 .p24 {
+    transition-delay: 0.24s;
+}
+
+.loading.a3 .p25 {
+    transition-delay: 0.25s;
+}
+
+.loading.a3 .p26 {
+    transition-delay: 0.26s;
+}
+
+.loading.a3 .p27 {
+    transition-delay: 0.27s;
+}
+
+.loading.a3 .p28 {
+    transition-delay: 0.28s;
+}
+
+.loading.a3 .p29 {
+    transition-delay: 0.29s;
+}
+
+.loading.a3 .loading__logo {
+    opacity: 1;
+    transition: all 0.45s ease;
+    transition-delay: 0.25s;
+}
+
+.loading.a4 .loading__logo {
+    opacity: 1;
+    transition-delay: 0;
+    transition: all 0.15s ease;
+}
+
+.loading.a4 p {
+    height: 0;
+}
+
+.loading.a0 p {
+    transition-delay: 0;
+    transition: none;
+}
+
+.loading.a0 .loading__logo {
+    transition: none;
+}
+

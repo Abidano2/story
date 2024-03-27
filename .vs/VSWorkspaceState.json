@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\abilities",
     "\\characters",
     "\\images"
   ],
-  "SelectedNode": "\\style2.css",
+  "SelectedNode": "\\characters\\style_char2.css",
   "PreviewInSolutionExplorer": false
 }

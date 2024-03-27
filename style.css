@@ -8,7 +8,7 @@ body {
 #main {
     color: #DDDDDD;
     height: auto;
-    margin: 3% 10% 3% 10%;
+    margin: 3% 25% 3% 25%;
     position: relative;
     background-color:#000000;  
     padding: 20px;
@@ -28,7 +28,7 @@ body {
 
 #music {
     margin: 1.4em;
-    width: 27%;
+    width: 44%;
     border: 3px solid white;
     background-color: black;
     font-family: Orbitron;
