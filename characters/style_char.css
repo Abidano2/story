@@ -168,7 +168,34 @@ p.toc {
 }
 
 .neonText {
-    /*color: #04f;
-    text-shadow: 0 0 2px #04f, 0 0 8px #04f, 0 0 22px #00f*/
+    color: #07f;
+    text-shadow: 0 0 2px #04f, 0 0 8px #02f, 0 0 22px #00f
 }
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 4s linear infinite;
+}
+
+    .marquee p {
+        display: inline-block;
+    }
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
 
