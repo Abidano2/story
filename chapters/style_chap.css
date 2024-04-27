@@ -16,25 +16,6 @@ body {
     border: 5px solid white;
 }
 
-#main2 {
-    color: #DDDDDD;
-    float: right;
-    height: auto;
-    margin: 1.5% 2% 3% 10%;
-    position: relative;
-    background-color: #000000;
-    padding: 20px;
-    width: 250px;
-    border: 5px solid white;
-    line-height: 18px;
-}
-
-#yeah {
-
-    line-height: 32px;
-
-}
-
 #header {
     /*position: relative;
     left: 5%;
@@ -47,11 +28,11 @@ body {
 
 #music {
     margin: 1.4em;
-    width: 42%;
+    width: 44%;
     border: 3px solid white;
     background-color: black;
     font-family: Orbitron;
-    font-size: 8px;
+    font-size: 11px;
 }
 
 button {
@@ -60,7 +41,7 @@ button {
     border-radius: 0px;
     border: 0px solid;
     font-family: Orbitron;
-    font-size: 8px;
+    font-size: 11px;
 }
 
 button:hover {
@@ -76,14 +57,14 @@ a:link {
     text-decoration:none;
     color:cornflowerblue;
 }
-#yeah a:hover {
-    color: #74A5FD;
+a:hover {
+    color: midnightblue;
 }
 a:visited {
     color: cornflowerblue;
 }
 
-p.illust  {
+ p.illust  {
 text-align: center;
 
 }
@@ -92,17 +73,17 @@ p.illust img {
 }
 
 p.h1 {
-    font-family:Calibri;
-    font-weight: lighter;
+    font-family:'Open Sans Condensed', sans-serif;
     font-size:3em;
     color:#FFFFFF;
     margin: 0px;
+    text-align: center;
 }
 
 p.h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #DDDDDD;
     text-align:center;
     margin: 0em;} 
@@ -131,6 +112,7 @@ p.h4 {
 }
 
 p.storyblock-text {
+    display: table-cell;
     vertical-align: middle;
 }
 
@@ -167,6 +149,8 @@ p.toc {
     
 }
 
+/*---------------TEXT---------------*/
+
 .neonText_cf {
     color: #4ff;
     text-shadow: 0 0 2px #0bf, 0 0 8px #0df, 0 0 22px #0ff
@@ -191,6 +175,11 @@ p.toc {
     color: #4fa;
     text-shadow: 0 0 2px #3fa, 0 0 8px #1fa, 0 0 22px #0fa
 }
+
+
+
+
+/*---------------LINES---------------*/
 
 .neonLine_cf {
     border-color: #4ff;
@@ -222,23 +211,36 @@ p.toc {
     margin: 0.0001em
 }
 
+
+
+
+
 .wrapper {
     max-width: 100%;
     overflow: hidden;
 }
 
-.marquee {
+
+
+/*---------------ANIMATIONS---------------*/
+
+
+
+
+/*CRUEL FATE*/
+
+.marquee_cf {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee 5s linear infinite;
+    animation: marquee_cf 10s linear infinite;
 }
 
-    .marquee p {
+    .marquee_cf p {
         display: inline-block;
     }
 
-@keyframes marquee {
+@keyframes marquee_cf {
     0% {
         transform: translate3d(0, 0, 0);
     }
@@ -248,4 +250,71 @@ p.toc {
     }
 }
 
+.marquee_cf2 {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee_cf2 10s linear infinite;
+}
+
+    .marquee_cf2 p {
+        display: inline-block;
+    }
+
+@keyframes marquee_cf2 {
+    0% {
+        transform: translate3d(-50%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+/*DIVINE RETRIBUTION*/
+
+.marquee_dr {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee_dr 5s linear infinite;
+}
+
+    .marquee_dr p {
+        display: inline-block;
+    }
+
+@keyframes marquee_dr {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.marquee_dr2 {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee_dr2 5s linear infinite;
+}
+
+    .marquee_dr2 p {
+        display: inline-block;
+    }
+
+@keyframes marquee_dr2 {
+    0% {
+        transform: translate3d(-50%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
 

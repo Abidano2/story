@@ -8,11 +8,11 @@ body {
 #main {
     color: #DDDDDD;
     height: auto;
-    margin: 3% 25% 3% 25%;
+    margin: 3% 30% 3% 30%;
     position: relative;
-    background-color:#000000;  
+    background-color: #000000;
     padding: 20px;
-    width:auto;
+    width: auto;
     border: 5px solid white;
 }
 
@@ -21,61 +21,43 @@ body {
     left: 5%;
     height: 200px;
     width: 90%;
-    display:inline-block;
+    display: inline-block;
     background: black url(./images/header.png) center no-repeat;
-    border: 5px solid black; */
+    border: 5px solid black;*/
 }
 
-#music {
-    margin: 1.4em;
-    width: 44%;
-    border: 3px solid white;
-    background-color: black;
-    font-family: Orbitron;
-    font-size: 11px;
-}
 
-button {
-    color: white;
-    background-color: black;
-    border-radius: 0px;
-    border: 0px solid;
-    font-family: Orbitron;
-    font-size: 11px;
-}
-
-button:hover {
-    background-color: #222222;
-}
-    
-p { 
+p {
     font-size: 1em;
     color: #DDDDDD;
     margin: 1em;
 }
+
 a:link {
-    text-decoration:none;
-    color:cornflowerblue;
+    text-decoration: none;
+    color: cornflowerblue;
 }
-a:hover {
-    color: midnightblue;
+
+#yeah a:hover {
+    color: #74A5FD;
 }
+
 a:visited {
     color: cornflowerblue;
 }
 
- p.illust  {
-text-align: center;
+p.illust {
+    text-align: center;
+}
 
-}
-p.illust img {
-    border: white double 5px;
-}
+    p.illust img {
+        border: white double 5px;
+    }
 
 p.h1 {
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size:3em;
-    color:#FFFFFF;
+    font-family: Calibri;
+    font-size: 3em;
+    color: #FFFFFF;
     margin: 0px;
     text-align: center;
 }
@@ -85,35 +67,36 @@ p.h2 {
     font-style: italic;
     font-size: 2em;
     color: #DDDDDD;
-    text-align:center;
-    margin: 0em;} 
+    text-align: center;
+    margin: 0em;
+}
+
 p.h3 {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight:300;
-    font-size: 1.75em;
+    font-weight: 300;
+    font-size: 32px;
     margin: .5em;
     color: #DDDDDD;
-    text-align:center;
-} 
+    text-align: center;
+}
+
 p.h4 {
     font-family: 'Georgia', serif;
-    font-style: italic ;
+    font-style: italic;
     text-align: center;
     font-size: 1.10em;
     margin: 0em;
 }
 
 .storyblock {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
     color: #DDDDDD;
-    position: relative;
-    display:table;
     /* padding: 0em 1em 1em 1em; */
-    text-align:justify;
 }
 
 p.storyblock-text {
-    display: table-cell;
-    vertical-align: middle;
+    text-align: center;
 }
 
 p.toc {
@@ -136,7 +119,6 @@ p.toc {
     width: 100px;
     height: 100px;
     border: 1.5px solid #ffffff;
-    
 }
 
 #castthumb img {
@@ -144,39 +126,6 @@ p.toc {
     float: left;
     margin: 0.5em 1em 1em 1em;
     width: 150px;
-    height:150px;
+    height: 150px;
     border: none;
-    
 }
-
-.neonText {
-    color: #4ff;
-    text-shadow: 0 0 2px #0bf, 0 0 8px #0df, 0 0 22px #0ff
-}
-
-.wrapper {
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.marquee {
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
-    animation: marquee 10s linear infinite;
-}
-
-    .marquee p {
-        display: inline-block;
-    }
-
-@keyframes marquee {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-
-    100% {
-        transform: translate3d(-50%, 0, 0);
-    }
-}
-
