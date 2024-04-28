@@ -216,13 +216,14 @@ p.toc {
 
 
 .wrapper {
+    font-size: 12px;
     max-width: 100%;
     overflow: hidden;
 }
 
 
 
-/*---------------ANIMATIONS---------------*/
+/*--------- ------ANIMATIONS---------------*/
 
 
 
@@ -233,7 +234,7 @@ p.toc {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee_cf 10s linear infinite;
+    animation: marquee_cf 7s linear infinite;
 }
 
     .marquee_cf p {
@@ -254,7 +255,7 @@ p.toc {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee_cf2 10s linear infinite;
+    animation: marquee_cf2 7s linear infinite;
 }
 
     .marquee_cf2 p {
