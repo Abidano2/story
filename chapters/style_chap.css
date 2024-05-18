@@ -1,5 +1,5 @@
 body {
-    /*background-image: url(background.jpg);*/
+    /*background-image: url(../images/bg-test.jpg);*/
     background-color: black;
     background-attachment: fixed;
     font-family: 'Georgia', serif;
@@ -101,6 +101,13 @@ p.h4 {
     text-align: center;
     font-size: 1.10em;
     margin: 0em;
+}
+
+p.tr {
+    font-family: Arial;
+    color: #777777;
+    font-size: 8px;
+    margin-top: 2px;
 }
 
 .storyblock {
@@ -319,3 +326,23 @@ p.toc {
     }
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: cornflowerblue;
+}
+
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
+ }
