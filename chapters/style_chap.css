@@ -174,19 +174,59 @@ p.toc {
 }
 
 .neonText_fye {
-    color: #fb4;
-    text-shadow: 0 0 2px #fb0, 0 0 8px #fd0, 0 0 22px #ff0
+    color: #fb2;
+    text-shadow: 0 0 2px #fa0, 0 0 8px #f90, 0 0 22px #f80
 }
 
 .neonText_fm {
-    color: #4fa;
-    text-shadow: 0 0 2px #3fa, 0 0 8px #1fa, 0 0 22px #0fa
+    color: #2fb;
+    text-shadow: 0 0 2px #0fa, 0 0 8px #0f9, 0 0 22px #0f8
 }
 
+.neonText_ss {
+    color: #ff9a00;
+    text-shadow: 0 0 2px #ee8900, 0 0 8px #dd7800, 0 0 22px #cc6700
+}
 
+.neonText_dd {
+    color: #aeff00;
+    text-shadow: 0 0 2px #9dee00, 0 0 8px #8cdd00, 0 0 22px #7bcc00
+}
 
+.neonText_sr {
+    color: #fffa81;
+    text-shadow: 0 0 2px #eee970, 0 0 8px #ddd860, 0 0 22px #ccc750
+}
 
-/*---------------LINES---------------*/
+.neonText_tl {
+    color: #ff566d;
+    text-shadow: 0 0 2px #ee455c, 0 0 8px #dd344b, 0 0 22px #cc233a
+}
+
+.neonText_pp {
+    color: #93f;
+    text-shadow: 0 0 2px #82e, 0 0 8px #71d, 0 0 22px #60c
+}
+
+.neonText_rs {
+    color: #9a2586;
+    text-shadow: 0 0 2px #891475, 0 0 8px #780364, 0 0 22px #670253
+}
+
+.neonText_byb {
+    color: #7afdef;
+    text-shadow: 0 0 2px #69ecde, 0 0 8px #58dbcd, 0 0 22px #47cabc
+}
+
+.neonText_sv {
+    color: #ff0;
+    text-shadow: 0 0 2px #ee0, 0 0 8px #dd0, 0 0 22px #cc0
+}
+
+.neonText_wep {
+    color: #0f7;
+    text-shadow: 0 0 2px #0f4, 0 0 8px #0f2, 0 0 22px #0f0
+}
 
 .neonLine_cf {
     border-color: #4ff;
@@ -207,20 +247,70 @@ p.toc {
 }
 
 .neonLine_fye {
-    border-color: #fb4;
-    box-shadow: 0 0 2px #fb0, 0 0 8px #fd0, 0 0 22px #ff0;
+    border-color: #fb2;
+    box-shadow: 0 0 2px #fa0, 0 0 8px #f90, 0 0 22px #f80;
     margin: 0.0001em
 }
 
 .neonLine_fm {
-    border-color: #4fa;
-    box-shadow: 0 0 2px #3fa, 0 0 8px #1fa, 0 0 22px #0fa;
+    border-color: #2fb;
+    box-shadow: 0 0 2px #0fa, 0 0 8px #0f9, 0 0 22px #0f8;
     margin: 0.0001em
 }
 
+.neonLine_ss {
+    border-color: #fa0;
+    box-shadow: 0 0 2px #e80, 0 0 8px #d70, 0 0 22px #c60;
+    margin: 0.0001em
+}
 
+.neonLine_dd {
+    border-color: #aeff00;
+    box-shadow: 0 0 2px #9dee00, 0 0 8px #8cdd00, 0 0 22px #7bcc00;
+    margin: 0.0001em
+}
 
+.neonLine_sr {
+    border-color: #fffa81;
+    box-shadow: 0 0 2px #eee970, 0 0 8px #ddd860, 0 0 22px #ccc750;
+    margin: 0.0001em
+}
 
+.neonLine_tl {
+    border-color: #ff566d;
+    box-shadow: 0 0 2px #ee455c, 0 0 8px #dd344b, 0 0 22px #cc233a;
+    margin: 0.0001em
+}
+
+.neonLine_pp {
+    border-color: #93f;
+    box-shadow: 0 0 2px #82e, 0 0 8px #71d, 0 0 22px #60c;
+    margin: 0.0001em
+}
+
+.neonLine_rs {
+    border-color: #9a2586;
+    box-shadow: 0 0 2px #891475, 0 0 8px #780364, 0 0 22px #670253;
+    margin: 0.0001em
+}
+
+.neonLine_byb {
+    border-color: #7afdef;
+    box-shadow: 0 0 2px #69ecde, 0 0 8px #58dbcd, 0 0 22px #47cabc;
+    margin: 0.0001em
+}
+
+.neonLine_sv {
+    border-color: #ff0;
+    box-shadow: 0 0 2px #ee0, 0 0 8px #dd0, 0 0 22px #cc0;
+    margin: 0.0001em
+}
+
+.neonLine_wep {
+    border-color: #0f7;
+    box-shadow: 0 0 2px #0f4, 0 0 8px #0f2, 0 0 22px #0f0;
+    margin: 0.0001em
+}
 
 .wrapper {
     font-size: 12px;
@@ -228,27 +318,17 @@ p.toc {
     overflow: hidden;
 }
 
-
-
-/*--------- ------ANIMATIONS---------------*/
-
-
-
-
-/*CRUEL FATE*/
-
-.marquee_cf {
+.marquee {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee_cf 7s linear infinite;
 }
 
-    .marquee_cf p {
+    .marquee p {
         display: inline-block;
     }
 
-@keyframes marquee_cf {
+@keyframes marquee {
     0% {
         transform: translate3d(0, 0, 0);
     }
@@ -258,65 +338,17 @@ p.toc {
     }
 }
 
-.marquee_cf2 {
+.marquee2 {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee_cf2 7s linear infinite;
 }
 
-    .marquee_cf2 p {
+    .marquee2 p {
         display: inline-block;
     }
 
-@keyframes marquee_cf2 {
-    0% {
-        transform: translate3d(-50%, 0, 0);
-    }
-
-    100% {
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-
-
-
-/*DIVINE RETRIBUTION*/
-
-.marquee_dr {
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
-    animation: marquee_dr 5s linear infinite;
-}
-
-    .marquee_dr p {
-        display: inline-block;
-    }
-
-@keyframes marquee_dr {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
-
-    100% {
-        transform: translate3d(-50%, 0, 0);
-    }
-}
-
-.marquee_dr2 {
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
-    animation: marquee_dr2 5s linear infinite;
-}
-
-    .marquee_dr2 p {
-        display: inline-block;
-    }
-
-@keyframes marquee_dr2 {
+@keyframes marquee2 {
     0% {
         transform: translate3d(-50%, 0, 0);
     }
